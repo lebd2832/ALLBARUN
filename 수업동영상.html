@@ -3,44 +3,31 @@
 <head>
   <title>ALL바른태권도의 홈페이지</title>
   <meta charset="utf-8">
-</head>
+  <link rel="stylesheet" href="style.css">
+  </head>
 <body>
-  <<h1><a href="index.html">WEB</a></h1>
-  <ol>
-    <li><a href="공지사항.html">공지사항</a></li>
-    <li><a href="인원관리.html">인원관리</a></li>
-    <li><a href="출석체크.html">출석체크</a></li>
-    <li><a href="수업동영상.html">수업동영상</a></li>
-    <li><a href="차량인원관리.html">차량인원관리</a></li>
-    <li><a href="이벤트관리.html">이벤트 관리</a></li>
-    <li><a href="줄넘기관리.html">줄넘기관리</a></li>
-    <li><a href="회비관리.html">회비관리</a></li>
-    <li><a href="체온측정.html">체온측정</a></li>
-    <li><a href="체력측정.html">체력측정</a></li>
-  </ol>
-  <h1>수업동영상</h1>
-  <p></p>
-    여기는 수업동영상 게시판 입니다.
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/D0Ep035KHMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<p>
-  <div id="disqus_thread"></div>
-  <script>
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-      /*
-      var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      */
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = 'https://allbarun.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <<h1><a href="index.html">ALL 바른태권도장</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="공지사항.html">공지사항</a></li>
+      <li><a href="수업동영상.html" id="active">수업동영상</font></a></li>
+      <li><a href="이벤트관리.html" >이벤트 관리</a></li>
+      <li><a href="인원관리.html" >인원관리</a></li>
+      <li><a href="줄넘기관리.html" >줄넘기관리</a></li>
+      <li><a href="차량인원관리.html" >차량인원관리</a></li>
+      <li><a href="체력측정.html" >체력측정</a></li>
+      <li><a href="체온측정.html" >체온측정</a></li>
+      <li><a href="출석체크.html" >출석체크</a></li>
+      <li><a href="회비관리.html" >회비관리</a></li>
+    </ol>
+    <div id="article">
+        <h2>수업동영상</h2>
+        <p>
+        여기는 수업동영상 게시판 입니다.
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/D0Ep035KHMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <p>
+        </p>
+    </div>
+  </div>
   </body>
   </html>
